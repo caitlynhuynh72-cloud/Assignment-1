@@ -1,1 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
 
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: red;
+
+}
+
+.site-header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.site-header img {
+    width: 100px;
+}
+
+.links {
+    margin: 80px 0px 0px 0px;
+    font-size: 18px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner {
+    background-color: orange;
+    padding: 40px;
+
+}
+
+.hero-sidebar {
+    background-color: blue;
+    padding: 40px;
+
+}
+
+.card {
+    background-color: green;
+    padding: 50px;
+    margin: 10px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    text-align: center;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .hero-grid {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 10px;
+        gap: 20px;
+
+}
+
+    .cards-gallery {
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+}
