@@ -52,9 +52,17 @@
     margin: 10px;
     gap:10px;
     display: flex;
-    flex-direction: column;
-    margin-top: auto;
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:auto;
+
+}
+
+.card-button {
+    width: 50px;
+    
 }
 
 .site-footer {
